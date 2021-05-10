@@ -24,7 +24,7 @@ public class IntervenantRecyclerView extends RecyclerView.Adapter<IntervenantRec
     // inflates the row layout from xml when needed
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = mInflater.inflate(R.layout.medecinrecyclerview, parent, false);
+        View view = mInflater.inflate(R.layout.intervenantrecyclerview, parent, false);
         return new ViewHolder(view);
     }
 

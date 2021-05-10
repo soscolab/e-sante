@@ -5,16 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/**
+ * Created by ganesh on 6/10/2017.
+ */
+
+public class intervenant extends AppCompatActivity implements IntervenantRecyclerView.ItemClickListener {
 
 
-public class intervenant extends AppCompatActivity implements MedecinRecyclerView.ItemClickListener {
+    IntervenantRecyclerView adapter;
+    TextView tv_auxiliaire;
 
-
-    MedecinRecyclerView adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +37,7 @@ public class intervenant extends AppCompatActivity implements MedecinRecyclerVie
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.rvAnimals);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new MedecinRecyclerView(this, animalNames);
+        adapter = new IntervenantRecyclerView(this, animalNames);
         adapter.setClickListener(this);
         recyclerView.setAdapter(adapter);
     }
