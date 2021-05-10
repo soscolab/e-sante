@@ -31,7 +31,7 @@ public class intervenant extends AppCompatActivity implements IntervenantRecycle
         animalNames.add("Patient  1");
         animalNames.add("Patient  2");
         animalNames.add("Patient  3");
-        animalNames.add("Patient 4");
+        animalNames.add("Patient  4");
         animalNames.add("Patient  5");
         animalNames.add("Patient  6");
         animalNames.add("Patient  7");
@@ -51,11 +51,8 @@ public class intervenant extends AppCompatActivity implements IntervenantRecycle
         animalNames.add("Patient  21");
         animalNames.add("Patient  22");
         animalNames.add("Patient  23");
-         String[] taillePlanetes = {"4900", "12000", "12800", "6800", "144000", "120000", "52000", "50000", "2300"};
+        String[] taillePlanetes = {"4900", "12000", "12800", "6800", "144000", "120000", "52000", "50000", "2300"};
         final Spinner spinner = findViewById(R.id.simpleSpinner);
-
-
-
 
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.rvAnimals);
