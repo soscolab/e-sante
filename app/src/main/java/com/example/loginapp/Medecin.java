@@ -29,11 +29,20 @@ public class Medecin extends AppCompatActivity implements MedecinRecyclerView.It
 
         // data to populate the RecyclerView with
         ArrayList<String> animalNames = new ArrayList<>();
-        animalNames.add("Horse");
-        animalNames.add("Cow");
-        animalNames.add("Camel");
-        animalNames.add("Sheep");
-        animalNames.add("Goat");
+        animalNames.add("Parcours1");
+        animalNames.add("Parcours 2");
+        animalNames.add("Parcours 3");
+        animalNames.add("Parcours 4");
+        animalNames.add("Parcours 5");
+        animalNames.add("Parcours 6");
+        animalNames.add("Parcours 7");
+        animalNames.add("Parcours 8");
+        animalNames.add("Parcours 9");
+        animalNames.add("Parcours 10");
+        animalNames.add("Parcours 11");
+        animalNames.add("Parcours 12");
+
+
 
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.rvAnimals);

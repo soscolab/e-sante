@@ -41,10 +41,7 @@ public class intervenant extends AppCompatActivity implements IntervenantRecycle
         final Spinner spinner = findViewById(R.id.simpleSpinner);
 
 
-        Context activity = null;
-        final ArrayAdapter<String> spinadapter = new ArrayAdapter<String>(activity, android.R.layout.simple_spinner_item, taillePlanetes);
-        spinadapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(spinadapter);
+
 
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.rvAnimals);
