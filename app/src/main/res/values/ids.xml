@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="coordinatorLayout" type="id" />
+    <item name="tv_principal" type="id" />
+    <item name="tv_auxiliaire" type="id" />
+    <item name="imageView" type="id" />
+</resources>
