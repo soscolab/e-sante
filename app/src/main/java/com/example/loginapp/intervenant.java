@@ -13,10 +13,6 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by ganesh on 6/10/2017.
- */
-
 public class intervenant extends AppCompatActivity implements IntervenantRecyclerView.ItemClickListener {
 
     private ArrayList<String> planetes;

@@ -13,9 +13,6 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by ganesh on 6/10/2017.
- */
 
 public class Medecin extends AppCompatActivity implements MedecinRecyclerView.ItemClickListener {
 
@@ -52,8 +49,6 @@ public class Medecin extends AppCompatActivity implements MedecinRecyclerView.It
         animalNames.add("Parcours 21");
         animalNames.add("Parcours 22");
         animalNames.add("Parcours 23");
-
-
 
 
         // set up the RecyclerView
