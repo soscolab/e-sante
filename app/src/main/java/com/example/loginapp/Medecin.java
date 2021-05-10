@@ -41,6 +41,18 @@ public class Medecin extends AppCompatActivity implements MedecinRecyclerView.It
         animalNames.add("Parcours 10");
         animalNames.add("Parcours 11");
         animalNames.add("Parcours 12");
+        animalNames.add("Parcours 13");
+        animalNames.add("Parcours 14");
+        animalNames.add("Parcours 15");
+        animalNames.add("Parcours 16");
+        animalNames.add("Parcours 17");
+        animalNames.add("Parcours 18");
+        animalNames.add("Parcours 19");
+        animalNames.add("Parcours 20");
+        animalNames.add("Parcours 21");
+        animalNames.add("Parcours 22");
+        animalNames.add("Parcours 23");
+
 
 
 
