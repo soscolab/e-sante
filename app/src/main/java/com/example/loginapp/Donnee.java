@@ -3,7 +3,7 @@ package com.example.loginapp;
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
 
-
+//fichier data
 public class Donnee {
         private String principal;
         private String auxiliaire;

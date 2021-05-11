@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="80dp"
-    android:gravity="center"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:weightSum="2">
-
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tvAnimalName"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textStyle="bold"
-        android:textColor="@color/colorAccent"
-        android:text="Planète" />
+        android:textSize="20sp"/>
     <CheckBox
         android:id="@+id/checkbox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.6"
-        android:text="Assigner parcours" />
+        android:text="Certain" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_weight="0.4"/>
+        android:layout_weight="0.4">
 
+    </Spinner>
 </LinearLayout>
