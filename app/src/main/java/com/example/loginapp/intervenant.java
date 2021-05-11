@@ -56,7 +56,7 @@ public class intervenant extends AppCompatActivity implements IntervenantRecycle
         animalNames.add("Patient  22");
         animalNames.add("Patient  23");
 
-
+//intervenant
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.rvAnimals);
 
