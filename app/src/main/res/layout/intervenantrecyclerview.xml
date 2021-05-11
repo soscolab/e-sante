@@ -6,20 +6,21 @@
     android:orientation="horizontal"
     android:weightSum="2">
 
-      <TextView
+
+    <TextView
         android:id="@+id/tvAnimalName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textStyle="bold"
         android:textColor="@color/colorAccent"
-        android:text="Planète" />
+         />
     <CheckBox
         android:id="@+id/checkbox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.6"
-        android:text="Certain" />
+        android:text="Assigner Parcours" />
 
     <Spinner
         android:id="@+id/spinner"
