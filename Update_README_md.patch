@@ -1,0 +1,20 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision c6ae0e07f7d6eafa2d48687989f221e0c57c40ad)
++++ README.md	(revision 18936c425f7d658566a737635ed724ba15d60c50)
+@@ -7,12 +7,5 @@
+ 
+ 
+ ### Phase 1 : interface graphique
+- - 2 Fragments ( Login / Register ) Page D'accueil
+- - Activity medecin, contient la liste des parcours 
+- - Activity patient contenant la calendrier des activités
+- - Activity Intervenant pour assigner les parcours aux patients 
+- - Utilisation du RecyclerView pour afficher la liste des patients/ Parcours 
+- - Plugin Week-View pour afficher le calendrier dans l'espace patient 
+-
+ 
+ 
