@@ -30,7 +30,7 @@ public class intervenant extends AppCompatActivity implements IntervenantRecycle
         super.onCreate(savedInstanceState);
         setContentView(R.layout.intervenant);
 
-        // data to populate the RecyclerView with
+        // data to populate the RecyclerView wit
         ArrayList<String> animalNames = new ArrayList<>();
         animalNames.add("Patient  1");
         animalNames.add("Patient  2");
