@@ -1,50 +1,30 @@
-package Pathologie_;
-
+package com.example.loginapp;
 
 /**
-* @generated
-*/
-public class Pathologie_ {
-    
-    /**
-    * @generated
-    */
-    private String Description;
-    
-    
-    /**
-    * @generated
-    */
-    private Set<Structure_> ;
-    
-    
-    /**
-    * @generated
-    */
-    public String getDescription() {
-        return this.Description;
-    }
-    
-    /**
-    * @generated
-    */
-    public String setDescription(String Description) {
-        this.Description = Description;
-    }
-    
-    
-    /**
-    * @generated
-    */
-    public Structure_ get() {
-        return this.;
-    }
-    
-    /**
-    * @generated
-    */
-    public Structure_ set(Structure_ ) {
-        this. = ;
-    }
-    
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Pathologie_
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String Description;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Pathologie_(){
+		super();
+	}
+
 }
+

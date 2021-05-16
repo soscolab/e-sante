@@ -1,31 +1,21 @@
-package Séance_;
-
+package com.example.loginapp;
 
 /**
-* @generated
-*/
-public class Séance_ {
-    
-    
-    /**
-    * @generated
-    */
-    private Set<Activité_> ;
-    
-    
-    
-    /**
-    * @generated
-    */
-    public Activité_ get() {
-        return this.;
-    }
-    
-    /**
-    * @generated
-    */
-    public Activité_ set(Activité_ ) {
-        this. = ;
-    }
-    
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Séance_
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Séance_(){
+		super();
+	}
+
 }
+

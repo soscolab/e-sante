@@ -1,69 +1,48 @@
-package Utilisateur_;
-
+package com.example.loginapp;
 
 /**
-* @generated
-*/
-public class Utilisateur_ {
-    
-    /**
-    * @generated
-    */
-    private String user;
-    
-    /**
-    * @generated
-    */
-    private invalid password;
-    
-    /**
-    * @generated
-    */
-    private String role ;
-    
-    
-    
-    /**
-    * @generated
-    */
-    public String getUser() {
-        return this.user;
-    }
-    
-    /**
-    * @generated
-    */
-    public String setUser(String user) {
-        this.user = user;
-    }
-    
-    /**
-    * @generated
-    */
-    public invalid getPassword() {
-        return this.password;
-    }
-    
-    /**
-    * @generated
-    */
-    public invalid setPassword(invalid password) {
-        this.password = password;
-    }
-    
-    /**
-    * @generated
-    */
-    public String getRole () {
-        return this.role ;
-    }
-    
-    /**
-    * @generated
-    */
-    public String setRole (String role ) {
-        this.role  = role ;
-    }
-    
-    
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Utilisateur_
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String user;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String password;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String role ;
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Utilisateur_(){
+		super();
+	}
+
 }
+
