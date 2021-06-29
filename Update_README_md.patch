@@ -16,5 +16,5 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 - - Utilisation du RecyclerView pour afficher la liste des patients/ Parcours 
 - - Plugin Week-View pour afficher le calendrier dans l'espace patient 
 -
- 
+-  - remove last feature 
  
